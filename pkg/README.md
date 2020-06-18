@@ -8,10 +8,7 @@ The backend is using mysql as storage.
 | ------- | ----------- |
 | /pkg/http | Http Handlers and routing. |
 | /pkg/infra | Packages in infra should be packages that are used in multiple places without knowing anything about the domain. E.g. Logs, Metrics, Traces. |
-| /pkg/models | This is where we keep our domain model. This package should not depend on any package outside standard library.  |
-| /pkg/registry | Service management package. |
-| /pkg/services | Packages in services are responsible for peristing domain objects and manage the relationship between domain objects. |
-| /pkg/setting | Anything related to global configuration should be dealt with in this package. |
+| /pkg/models | Storage Structs and Interfaces here  |
 | /pkg/storage | Where are database calls resides. |
 
 ## Testing

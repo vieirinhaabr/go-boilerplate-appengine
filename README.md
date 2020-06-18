@@ -1,12 +1,6 @@
-# Go web application boilerplate
+# Go web appengine boilerplate
 
-This is a structre for a go web application, inspired by [project-layout](https://github.com/golang-standards/project-layout). Please feel free to open issues or pull request to improve this boilerplate.
-
-Use `make init` to install githooks and download dependencies.
-
-The default http router is [gorilla mux](https://github.com/gorilla/mux).
-
-The logging framework is [Zap](https://github.com/uber-go/zap) and can be replaced in `/pkg/infra/logger.go`.
+This is a structre for a go web application, inspired by [go-web-app-boilerplate](https://github.com/marvincaspar/go-web-app-boilerplate). Please feel free to open issues or pull request to improve this boilerplate.
 
 ## Central folder structure
 
